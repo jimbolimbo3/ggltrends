@@ -12,9 +12,9 @@ pytrend.build_payload(
 related_queries_dict = pytrend.related_queries()
 print(related_queries_dict)
 # for rising related queries
-related_queries_rising = related_queries_dict.get(kw).get('rising')
+related_queries_rising = related_queries_dict.get("pijama").get('rising')
 # for top related queries
-related_queries_top = related_queries_dict.get(kw).get('top')
+related_queries_top = related_queries_dict.get("pijama").get('top')
 print('**************** RISING RELATED KEYWORDS **************')
 print(related_queries_rising)
 print('**************** TOP RELATED KEYWORDS *******************')
